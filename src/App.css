@@ -41,3 +41,14 @@
 .read-the-docs {
   color: #888;
 }
+
+@keyframes errorBlink {
+  0%   { color: #dc2626; } /* red */
+  50%  { color: #f68989; } /* white */
+  100% { color: #dc2626; } /* red */
+}
+
+/* apply 1s red, 1s white => 2s total loop */
+.error-blink {
+  animation: errorBlink 0.75s linear infinite;
+}
