@@ -8,7 +8,7 @@ function App() {
   const [result, setResult] = useState('');
 
   const handleClick = (value) => {
-    if (value === 'C') {
+    if (value === 'AC') {
       setInput('');
       setResult('');
     } else if (value === '=') {
@@ -26,8 +26,8 @@ function App() {
   const buttons = ['7', '8', '9', '/', 
                    '4', '5', '6', '*', 
                    '1', '2', '3', '-', 
-                   '0', '.', 'C', '+', 
-                   '='];
+                   '0', '.', '=', '+', 
+                   'AC'];
 
   return (
     <>
