@@ -31,8 +31,8 @@ function App() {
 
   return (
     <>
-      <div className='min-h-screen bg-gradient-to-br from-indigo-50 to-white flex items-center justify-center p-4'>
-        <div className='bg-white shadow-xl rounded-2xl w-full max-w-md h-auto overflow-hidden grid grid-cols-1 gap-4'>
+      <div className='min-h-screen bg-gradient-to-br from-indigo-50 to-blue-100 flex items-center justify-center p-4'>
+        <div className='bg-white  shadow-xl rounded-2xl w-full max-w-md h-auto overflow-hidden grid grid-cols-1 gap-4'>
           
           
           <div className='p-6 flex flex-col gap-4 bg-gradient-to-b from-white to-gray-100'>
